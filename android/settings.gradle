@@ -1,0 +1,5 @@
+rootProject.name = 'testapp'
+include ':react-native-screen-recorder'
+project(':react-native-screen-recorder').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-screen-recorder/android')
+
+include ':app'
